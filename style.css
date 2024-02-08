@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background: url(header_bg.webp);
+    background-size: cover;
+    display: flex;
+}
+
+.header_left {
+    width: 65%;
+    height: 100%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.header_left p {
+    font-size: 0.5em;
+}
+
+.bio {
+    width: 60%;
+}
+
+
+.header_right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+}
+
+.header_btn {
+    cursor: pointer;
+}
+
+.header_btn:hover {
+    transform: scale(1.05);
+}
+
+main {
+    width: 100vw;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+
+section h1 {
+    font-size: 4em;
+}
+
+.section_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_item {
+    height: 10vw;
+    margin: 0 4em 4em 4em;
+}
+
+.section_item img {
+    height: 100%;
+}
+
+
+.projects {
+    color: white;
+    background: black;
+}
+
+.github:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    position: relative;
+    background-image: url(footer_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer_content {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    -webkit-backdrop-filter: brightness(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

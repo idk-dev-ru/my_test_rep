@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Overpass", sans-serif;
 }
 
 header {
     width: 100vw;
     height: 100vh;
-    background: url(header_bg.webp);
+    background: url(https://img.freepik.com/free-photo/3d-render-of-a-network-communications-design-background-with-shallow-depth-of-field_1048-14612.jpg?w=996&t=st=1707925395~exp=1707925995~hmac=e1d8ff6c8e9c0fc0bec348cb2f41a5d32c980b4b7bf7499f3af9a2eca6d759bd);
     background-size: cover;
     display: flex;
+    color: white;
 }
 
 .header_left {
